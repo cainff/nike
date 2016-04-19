@@ -49,6 +49,7 @@ h2 {
     font-family: 'Ropa Sans', sans-serif;
     font-size:14px;
     color:#52a5e2;
+    text-transform: uppercase;
 }
 
 .Subtitle {
@@ -61,6 +62,7 @@ h2 {
     font-family: 'Ropa Sans', sans-serif;
     font-size: 14px;
     color:#333333;
+    text-transform: uppercase;
 }
 
 .Para {
@@ -108,8 +110,7 @@ h2 {
 #couleur {
     position: absolute;
     top:320px;
-    right:325px;
-    text-transform: uppercase;
+    right:330px;
     font-family: 'Ropa Sans',sans-serif;
     font-size: 14px;
 }
@@ -125,15 +126,48 @@ h2 {
 
 /** Bloc 2**/
 
+#textbloc2 {
+    
+}
+
 #whitenike {
     color:white;
 }
 
-#textbloc2 {
-    top:20px;
+#titlebloc2 {
+    position: relative;
+    float:left;
+    top:260px;
+    left:30px;
 }
 
-#textbloc22 {
+#pbloc2 {
+    position: relative;
+    float:left;
+    top:295px;
+    left:-380px;
+}
+
+
+/** Bloc 3 **/
+
+#titlebloc3shop {
     position: absolute;
+    top:25px;
 }
 
+#nameshop {
+    position: absolute;
+    top:55px;
+}
+
+#coloris {
+    position:absolute;
+    top:90px;
+}
+
+#stock2 {
+    position: absolute;
+    top:335px;
+    font-weight: bold;
+}
