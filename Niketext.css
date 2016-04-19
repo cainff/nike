@@ -1,0 +1,139 @@
+/**Fonts
+
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ropa Sans', sans-serif;
+
+**/
+
+li:hover {
+    border-bottom: 3px solid #52a5e2;
+    color:#52a5e2;
+}
+
+/**Class and ID**/
+
+h2 {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 35px;
+    color:#333333;
+    text-transform: uppercase;
+}
+
+.Nike {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 25px;
+    color:#333333;
+    text-transform: uppercase;
+}
+
+.Price {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 18px;
+    color:#333333;
+}
+
+.Button {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 14px;
+    color:#333333;
+}
+
+.Button2 {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 14px;
+    color:#ffffff;
+}
+
+.Color {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size:14px;
+    color:#52a5e2;
+}
+
+.Subtitle {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 14px;
+    color:#666666;
+}
+
+.Stock {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 14px;
+    color:#333333;
+}
+
+.Para {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color:#8f8f8f;
+    font-weight: lighter;
+    line-height: 2;
+    white-space: pre-line;
+}
+
+.titlebloc3 {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 18px;
+}
+
+.textbloc3 {
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+/** Bloc 1 **/
+
+#titlebloc1 {
+    position: relative;
+    float:right;
+    overflow: hidden;
+    top:110px;
+    right:375px;
+}
+
+#titrebloc2 {
+    position: absolute;
+    top:250px;
+    right:353px;
+}
+
+#p1 {
+    position: absolute;
+    top:290px;
+    right:545px;
+}
+
+#couleur {
+    position: absolute;
+    top:320px;
+    right:325px;
+    text-transform: uppercase;
+    font-family: 'Ropa Sans',sans-serif;
+    font-size: 14px;
+}
+
+#chart {
+    position: absolute;
+    top:450px;
+    right:550px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 12px;
+    color:#8f8f8f;
+}
+
+/** Bloc 2**/
+
+#whitenike {
+    color:white;
+}
+
+#textbloc2 {
+    top:20px;
+}
+
+#textbloc22 {
+    position: absolute;
+}
+

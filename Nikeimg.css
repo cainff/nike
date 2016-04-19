@@ -1,0 +1,54 @@
+/**Header**/
+#Logo {
+    float:left;
+    position: relative;
+    overflow: hidden;
+    left:20px;
+}
+
+.padimg {
+    padding: 0px 10px 0px 10px;
+}
+
+/** Bloc 1 **/
+#nikeshoe {
+    position: absolute;
+    top:220px;
+    left:145px;
+}
+
+#coeur {
+    border : 1px solid #e4e4e4;
+    padding:15px;
+    position: relative;
+    float:right;
+    overflow: hidden;
+    right:420px;
+    top:15px;
+}
+
+#imgbloc1 {
+    position: relative;
+    float:right;
+    overflow: hidden;
+    right:197px;
+    top:240px;
+}
+
+#mbasketc {
+    border:1px solid #e4e4e4; 
+    margin:0px 5px 0px 0px;
+}
+
+#mbasketg {
+     border:1px solid #e4e4e4; 
+     margin:0px 0px 0px 5px;
+}
+
+/** Bloc 3**/
+
+#basketshop {
+    position: absolute;
+    top:160px;
+    left:25px;
+}
