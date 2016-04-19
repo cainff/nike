@@ -22,6 +22,22 @@
     position: relative;
 }
 
+#wrapbloc3 {
+    width: 28%;
+    height: 100%;
+    margin: 0px 20px 0px 40px;
+    font-family: 'SegoeUI', sans-serif;
+    position: relative;
+}
+
+#wrapbloc4 {
+    width: 94%;
+    height: 100%;
+    margin: 0px 40px 0px 40px;
+    font-family: 'SegoeUI', sans-serif;
+    position: relative;
+}
+
 #header{
     background-color: white;
     width: 1440px;
@@ -143,6 +159,8 @@
     height: 50px;
     background: rgba(68,78,86,0);
     background: url("Bloc 1/arrow.png") no-repeat right;
+    -webkit-appearence: none;
+
     
 }
 
@@ -159,3 +177,6 @@
     font-family: 'Ropa Sans',sans-serif;
     font-size: 14px;
 }
+
+/**Bloc 4**/
+
