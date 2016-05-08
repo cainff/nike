@@ -14,6 +14,15 @@
  
 }
 
+#miniwrap {
+    width: 280px;
+    height: 400px;
+    font-family: 'SegoeUI', sans-serif;
+    position: absolute;
+    left: 925px;
+    top:80px;
+}
+
 #wrapshop {
     width: 80%;
     height: 100%;
@@ -53,13 +62,14 @@
 #bloc2 {
     height: 660px;
     width: 100%;    
-    background-image: url("Bloc 2/bgbloc2.png");
+    background-image: url("Bloc-2/bgbloc2.png");
 }
 
 #bloc3 {
     height: 660px;
     width: 100%;
-    background: url("Bloc 3/bgnike.png")
+    background: url("Bloc-3/bgnike.png");
+    
 }
 
 #bloc4 {
@@ -79,13 +89,14 @@
     font-family: 'Ropa Sans', sans-serif;
     font-size: 14px;
     text-transform: uppercase;
+    margin-top:10px;
 }
 
 .menu2 {
     display:inline;
     position: absolute;
     float:right;    
-    top:20px;
+    margin-top: 10px;
     left:1075px;
     overflow: hidden;
     font-family: 'Ropa Sans', sans-serif;
@@ -105,13 +116,12 @@
 
 #sizeid {
     position:absolute;
-    top:490px;
-    right:487px;
     border: 3px solid #8f8f8f;
     width: 125px;
     height: 50px;
     background: rgba(68,78,86,0);
-    background: url("Bloc 1/arrow.png") no-repeat right;
+    background: url("Bloc-1/arrow.png") no-repeat right;
+    top:385px;
     
 }
 
@@ -126,8 +136,8 @@
     text-transform: uppercase;
     font-family: 'Ropa Sans',sans-serif;
     font-size: 14px;
-    top:490px;
-    right:346px;
+    top:385px;
+    left:150px;
 }
 
 
@@ -158,7 +168,7 @@
     width: 115px;
     height: 50px;
     background: rgba(68,78,86,0);
-    background: url("Bloc 1/arrow.png") no-repeat right;
+    background: url("Bloc-1/arrow.png") no-repeat right;
     -webkit-appearence: none;
 
     
@@ -180,3 +190,29 @@
 
 /**Bloc 4**/
 
+ 
+ 
+    .swiper-container {
+        width: 90%;
+        height: 300px;
+        top:200px;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
