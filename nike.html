@@ -1,28 +1,26 @@
-<doctype HTML>
+<doctype HTML!>
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="css" href="Nike.css">
-<link rel="stylesheet" type="css" href="Niketext.css">
-<link rel="stylesheet" type="css" href="Nikeimg.css">
+    
+    <!--Css-->    
+<link rel="stylesheet" type="text/css" href="Nike.css">
+<link rel="stylesheet" type="text/css" href="Niketext.css">
+<link rel="stylesheet" type="text/css" href="Nikeimg.css">
+<link rel="stylesheet" type="text/css" href="reset.css"/>
+     
+    <!--Fonts-->
 <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
     
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
- 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>    
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
     
- <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="../dist/css/swiper.min.css">
     
-<script src="Nike.js"></script>
     
 </head>
 <body>
@@ -52,16 +50,19 @@
     <!--Bloc 1-->
     <div id="bloc1">
         <div id="wrapper">
-            <img id="nikeshoe" src="Bloc 1/basketnike.png"/>
-            <img id="coeur" src="Bloc 1/iconcoeur.png"/>
+            
+            <img id="nikeshoe" src="Bloc-1/basketnike.png"/>
+              
+              <div id="miniwrap">
+            <img id="coeur" src="Bloc-1/iconcoeur.png"/>
                 <h1 id="titlebloc1" class="Nike">Nike</h1>
-                    <h2 id="titrebloc2">Air Max Tavas SD</h2>
+                    <h2 id="titrebloc2" class="Nike">Air Max Tavas SD</h2>
                         <p id="p1" class="Price">$ 160.00</p>
                         <p id="couleur">Colors - <span class="Color">Black/Pink Pow/Tour Yellow/White</span></p>
                         <p id="chart">Size charts</p>
                 <div id="imgbloc1">
-                    <img id="mbasketc" src="Bloc 1/minibasketcolor.png"/>
-                    <img id="mbasketg" src="Bloc 1/minibasketgrise.png"/>
+                    <img id="mbasketc" src="Bloc-1/minibasketcolor.png"/>
+                    <img id="mbasketg" src="Bloc-1/minibasketgrise.png"/>
                 </div>
             <select name="Size" id="sizeid">
                 <option value="34">34</option>
@@ -80,6 +81,8 @@
             </select>
             
             <input id="But" type="button" value="Add to cart"></input>
+        </div>    
+            
         </div>
     </div>
     
@@ -124,7 +127,7 @@ gradient detail offer a comfortable fit and dynamic look.</p>
                     <h3 id="nameshop" class="Para">Air Max Tavas SD</h2>
                         <p id="coloris" class="Color">Black/Pink Pow/Tour Yellow/White</p>
                         <p id="stock2" class="Stock">En stock</p>
-                        <img id="basketshop" src="Bloc 3/minibasketbloc3.png"/>
+                        <img id="basketshop" src="Bloc-3/minibasketbloc3.png"/>
                     
                 <div id="butonlist">
                     <select name="Size" id="sizeid2">
@@ -154,99 +157,59 @@ gradient detail offer a comfortable fit and dynamic look.</p>
     <!--Bloc 4-->
     <div id="bloc4">
         <div id="wrapbloc4">
-            
-           <!-- Demo styles 
-    <style>
-    body {
-        background: #eee;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color:#000;
-        margin: 0;
-        padding: 0;
-    }
-    .swiper-container {
-        width: 100%;
-        height: 300px;
-        margin: 20px auto;
-    }
-    .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-    }
-    </style>
-            
-            
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    
-            <div class="swiper-slide">Slide 1
-                <img src="Bloc 4/slider1.png"/>        
+            <div id="titlebloc4">
+                <h1 class="Subtitle">Social</h1>
+                    <h2 class="Nike" id="hashtag">#Nikeairmax</h2>
             </div>
-            <div class="swiper-slide">Slide 2
-                <img src="Bloc 4/slider2.png"/>
+        <!--DEBUT DU SLIDER-->            
+            <!-- Demo styles -->
+  
+        <body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img class="slide" src="Bloc-4/slider1.png"/>        
             </div>
-            <div class="swiper-slide">Slide 3
-                <img src="Bloc 4/slider3.png"/>        
+            <div class="swiper-slide">
+                <img class="slide" src="Bloc-4/slider2.png"/>
             </div>
-            <div class="swiper-slide">Slide 4
-                <img src="Bloc 4/slider4.png"/>
+            <div class="swiper-slide">
+                <img class="slide" src="Bloc-4/slider3.png"/>        
+            </div>
+            <div class="swiper-slide">
+                <img class="slide" src="Bloc-4/slider4.png"/>
             </div>
                    
-            <div class="swiper-slide">Slide 5
-                <img src="Bloc 4/slider5.png"/>
+            <div class="swiper-slide">
+                <img class="slide" src="Bloc-4/slider5.png"/>
             </div>
-            <div class="swiper-slide">Slide 6
-                <img src="Bloc 4/slider6.png"/>        
+            <div class="swiper-slide">
+                <img class="slide" src="Bloc-4/slider6.png"/>        
             </div>
-            <div class="swiper-slide">Slide 7
-                <img src="Bloc 4/slider7.png"/>
+            <div class="swiper-slide">
+                <img class="slide" src="Bloc-4/slider7.png"/>
             </div>
-            <div class="swiper-slide">Slide 8
-                <img src="Bloc 4/slider8.png"/>
+            <div class="swiper-slide">
+                <img class="slide" src="Bloc-4/slider8.png"/>
             </div>
-            <div class="swiper-slide">Slide 9
-                <img src="Bloc 4/slider9.png"/>
+            <div class="swiper-slide">
+                <img class="slide" src="Bloc-4/slider9.png"/>
             </div> 
-                </div>
-        <!-- Add Pagination --
+        </div>
+        <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
     </div>
-            <!-- Swiper JS --
-    <script src="../dist/js/swiper.min.js"></script>
 
-    <!-- Initialize Swiper --
-    <script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        slidesPerView: 3,
-        paginationClickable: true,
-        spaceBetween: 30,
-        freeMode: true
-    });
-    </script> -->
-            
-               
+    <!-- Swiper JS -->
+    <script src="swiper.min.js"></script>
+    <script src="Nike.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
 
 
-
-        </div>
-    
+                   
+            </div>
     </div>
     
 
