@@ -7,6 +7,12 @@
     outline: none;
 }
 
+
+.bloc {
+    width: 100%;
+    position:relative;
+}
+
 #wrapper {
   width:1300px;
   height: 100%;
@@ -40,7 +46,7 @@
 }
 
 #wrapbloc4 {
-    width: 94%;
+    width: 100%;
     height: 100%;
     margin: 0px 40px 0px 40px;
     font-family: 'SegoeUI', sans-serif;
@@ -63,12 +69,14 @@
     height: 660px;
     width: 100%;    
     background-image: url("Bloc-2/bgbloc2.png");
+   
 }
 
 #bloc3 {
     height: 660px;
     width: 100%;
     background: url("Bloc-3/bgnike.png");
+    
     
 }
 
@@ -193,7 +201,7 @@
  
  
     .swiper-container {
-        width: 90%;
+        width: 100%;
         height: 300px;
         top:200px;
     }
